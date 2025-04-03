@@ -1,0 +1,37 @@
+*{
+    font-family: 'Monaco', 'Courier New', monospace;
+}
+
+body{
+    background-color: rgb(248, 226, 197);
+}
+.boton{
+    background-color: grey;
+    color:whitesmoke;
+    margin-bottom: 20px;
+}
+.boton:hover{
+    background-color: burlywood;
+    color:whitesmoke;
+    transform: scale(1.05);
+}
+
+.Camisas, .Pantalones, .Tenis {
+    background-color: rgb(255, 255, 240);
+    display: flex;
+    flex-wrap: wrap; /* Permite que las tarjetas se ajusten en varias filas si es necesario */
+    justify-content: space-around; /* Espaciado uniforme entre las tarjetas */
+    gap: 20px; /* Espaciado entre las tarjetas */
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#camisa, #pantalon, #tenis{
+    margin: 20px;
+}
+#footer{
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: 20px;   
+}
